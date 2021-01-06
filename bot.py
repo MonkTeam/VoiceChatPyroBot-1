@@ -1,5 +1,5 @@
 from pyrogram import Client
-from config import API_ID, API_HASH, TOKEN
+from config.py import API_ID, API_HASH, TOKEN
 
 app = Client("my_account", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
